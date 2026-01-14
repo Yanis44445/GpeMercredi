@@ -62,3 +62,18 @@ selecteur{
 
 On peut écrire le CSS:
 - dans le fichier html entre les balises `<style></style>`
+- dans un fichier dédié avec l'extension  `.CSS`  ; il faut ajouter 
+une balise `<link rel="stylesheet" href="">`
+
+
+Il existe plus de 500 prpriétés et encore davantage de valeurs
+possibles mais souvent, les valeurs sont : 
+
+- des couleurs (soit un nom soit un code comme rgb(0-255, 0-255, 0-255))
+- des tailles: plusieurs unités sont posibles
+    -`px` pour pixels
+    -`em` relatif à la taille de la police
+    -`%` relatif à la taille du contenant 
+
+
+Rem: Quand le sélécteur css est un élément de même nature, on peut utiliser l'attribut `class` ou `id`. Dans ce cas, le sélécteur est le nom de la classe précédé d'un `.` ou le nom de l'identifiant précédé d'un `#`.

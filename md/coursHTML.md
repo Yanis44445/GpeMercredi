@@ -77,3 +77,19 @@ possibles mais souvent, les valeurs sont :
 
 
 Rem: Quand le sélécteur css est un élément de même nature, on peut utiliser l'attribut `class` ou `id`. Dans ce cas, le sélécteur est le nom de la classe précédé d'un `.` ou le nom de l'identifiant précédé d'un `#`.
+
+Rem: Le contenu d'un élément html suit le principe du modèle en boîte.
+[https://www.w3schools.com/Css/css_boxmodel.asp](https://www.w3schools.com/Css/css_boxmodel.asp)
+
+Trois propriétés importantes sont liées à ce modèle:
+-`border` pour le style de la bordure 
+-`padding` pour l'espace interne 
+-`margin` pour la marge autour de la bordure
+
+Rem: Il existe des propriétés spécifiques au texte, en particulier:
+-`text-align` pour justifier le texte
+-`font` pour la police de caractères
+
+
+Ils existent deux balises HTML universelsqui permettent de grouper des éléments ou du texte:
+-`<div></div> -<span></span>`

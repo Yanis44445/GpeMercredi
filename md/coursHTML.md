@@ -153,3 +153,5 @@ On utilise la méthode addEventListener()
 elementHTML.addEventListener("event", function(){
 // faire qqchose
 });
+
+  

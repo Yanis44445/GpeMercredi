@@ -102,3 +102,54 @@ Il s'agit d'un langage de programmation comme Python mais initialement dédié a
 
 C'est un langage prévu pour interagir avec une page HTML : le document
 peut se représenter ainsi:
+
+Imagesimplifiée du DOM (Document Object Model)
+
+window
+├── alert()
+└── document
+    ├── getElementById()
+    ├── querySelector()
+    │       ↓
+    │   élément HTML
+    │       ├── innerHTML
+    │       ├── style
+    │       │     ├── color
+    │       │     ├── backgroundColor
+    │       │     └── display
+    │       └── addEventListener()
+Le JS permet de rendre une page HTML plus dynamique notamment grâce aux formulaires <form></form>.
+
+Les éléments HTML interactifs sont généralement des <input type="">:
+
+button
+checkbox
+text
+range
+password ...
+Pour écrire du JS on utilise les balises <script></script> et :
+
+on écrit directement le code dans le fichier HTML
+on écrit le code dans un fichier .js
+Pour attraper un élément sur la page afin de la manipuler avec JS, on peut utiliser:
+
+querySelector()
+getElementById()
+On écrira :
+
+let elementHTML = document.querySelector(""); //avec un sélecteur css
+let elementHTML = document.getElementById(""); // avec un id
+La plupart des éléments HTML interactifs ont une propriété value.
+
+console.log(elementHTML.value);
+JS est capable d'associer un évènement à un élément HTML:
+
+click
+change
+input
+mouseover ....
+On utilise la méthode addEventListener()
+
+elementHTML.addEventListener("event", function(){
+// faire qqchose
+});

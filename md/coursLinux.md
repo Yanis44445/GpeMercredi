@@ -62,11 +62,11 @@ Syntaxe générale:    `nom --option argument` ou `nom -option argument`
 |`mkdir`|créer un dossier *vide*|`$ mkdir monDossier`|
 |`nano`|éditer un fichier|`$ nano monfichier`|
 |`cat`|affiche le contenu des fichiers |`$ cat monfichier`|
-
+  
 
 
 ---------------
 Pour éditer un fichier plusieurs commandes/éditeurs sont possibles :
 - `nano` (dans ce cours)
 - `vi`
-- `emacs`
+- `emacs` 

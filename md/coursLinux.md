@@ -71,7 +71,9 @@ Syntaxe générale:    `nom --option argument` ou `nom -option argument`
 |`mv`|couper ou renommer des fichiers |`$ mv <source> <destination>`|
 |`echo`|affiche un texte sur la sortie standard (ecran) |`$ echo "i love u"`|
 |`chmod`|modifie les permissions des fichiers(dossiers) |`$ chmod 777 monFichier`|
-
+|`head`|affiche les premières lignes d'un fichier |`$ head monFichier`|
+|`tail`|affiche les dernières lignes d'un fichier |`$ tail -n 3 monFichier`|
+|`grep`|attraper une chaine dans un fichier |`$ grep chaine monFichier`|
 ---------------
 Pour éditer un fichier plusieurs commandes/éditeurs sont possibles :
 - `nano` (dans ce cours)
@@ -138,4 +140,15 @@ chmod u-x,g+rw,o+w ./monFichier       # retire x pour user, ajoute rw pour group
 ----------
 
 Le symbole `>` ou `>>` permet de *rediriger* la sortie d'une commande vers un fichier. Si ce fichier
-n'existe pas, alors il est crée.  
+n'existe pas, alors il est crée. Le symbole `>>` ajoute le texte à la suite sans écraser.
+
+-----------
+
+Les fichiers python `.py` ne sont pas des fichiers exécutables dans le shell. Il faut un programme
+pour les exécuter : `python ./monFichier.py`
+
+## Ex 1
+[https://codex.forge.apps.education.fr/exercices/course_cycliste/](https://codex.forge.apps.education.fr/exercices/course_cycliste/)
+
+## Ex2
+[https://codex.forge.apps.education.fr/exercices/syracuse/](https://codex.forge.apps.education.fr/exercices/syracuse/)

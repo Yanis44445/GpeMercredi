@@ -151,4 +151,4 @@ pour les exécuter : `python ./monFichier.py`
 [https://codex.forge.apps.education.fr/exercices/course_cycliste/](https://codex.forge.apps.education.fr/exercices/course_cycliste/)
 
 ## Ex2
-[https://codex.forge.apps.education.fr/exercices/syracuse/](https://codex.forge.apps.education.fr/exercices/syracuse/)
+[https://codex.forge.apps.education.fr/exercices/syracuse/](https://codex.forge.apps.education.fr/exercices/syracuse/) 
